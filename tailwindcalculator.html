@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center item-center mt-40 ">
+    <div class="bg-black  p-6 rounded-lg shadow-lg ">
+        <div class="mb-4">
+            
+            
+        </div>
+        <form name="calculator">
+            <input id="display" type="text" name="display" class=" p-4 w-11/12 text-2xl text-white bg-gray-800 rounded  mb-5" readonly /><br>
+            <div class="grid grid-cols-8 gap-1 ml-8 ">
+                <input onclick="calculator.display.value =''" class="bg-blue-600 p-4 text-lg text-white rounded hover:bg-blue-500 button" id="clearButton" type="button" value="AC">AC</input>
+                <input onclick="calculator.display.value =''" class="bg-blue-600 p-4 text-lg text-white rounded hover:bg-blue-500 button" id="clearButton" type="button" value="C">C</input>
+                <input onclick="calculator.display.value +='+/-'" class="bg-yellow-600 p-4 text-lg text-white rounded hover:bg-yellow-500 button mathButtons" type="button" value="+/-">+/-</input>
+                <input onclick="calculator.display.value +='/'" class="bg-yellow-600 p-4 text-lg text-white rounded hover:bg-yellow-500 button mathButtons" type="button" value="/">/</input>
+                <input onclick="calculator.display.value +='7'" class="bg-gray-700 p-4  text-lg text-white rounded hover:bg-gray-600 button digits " type="button" value="7">7 </input>
+                <input onclick="calculator.display.value +='8'" class="bg-gray-700 p-4 text-lg text-white rounded hover:bg-gray-600 button digits" type="button" value="8">8</input>
+                <input onclick="calculator.display.value +='9'" class="bg-gray-700 p-4 text-lg text-white rounded hover:bg-gray-600 button digits" type="button" value="9">9</input>
+                <input onclick="calculator.display.value +='+'" class="bg-yellow-600 p-4 text-lg text-white rounded hover:bg-yellow-500 button mathButtons" type="button" value="+">+</input>
+                <input onclick="calculator.display.value +='4'" class="bg-gray-700 p-4 text-lg text-white rounded hover:bg-gray-600 button digits" type="button" value="4">4</input>
+                <input onclick="calculator.display.value +='5'" class="bg-gray-700 p-4 text-lg text-white rounded hover:bg-gray-600 button digits" type="button" value="5">5</input>
+                <input onclick="calculator.display.value +='6'" class="bg-gray-700 p-4 text-lg text-white rounded hover:bg-gray-600 button digits" type="button" value="6">6</button>
+                <input onclick="calculator.display.value +='-'" class="bg-yellow-600 p-4 text-lg text-white rounded hover:bg-yellow-500 button mathButtons" type="button" value="-">-</input>
+                <input onclick="calculator.display.value +='1'" class="bg-gray-700 p-4 text-lg text-white rounded hover:bg-gray-600 button digits" type="button" value="1">1</input>
+                <input onclick="calculator.display.value +='2'" class="bg-gray-700 p-4 text-lg text-white rounded hover:bg-gray-600 button digits" type="button" value="2">2</input>
+                <input onclick="calculator.display.value +='3'" class="bg-gray-700 p-4 text-lg text-white rounded hover:bg-gray-600 button digits" type="button" value="3">3</input>
+                <input onclick="calculator.display.value +='*'" class="bg-yellow-600 p-4 text-lg text-white rounded hover:bg-yellow-500 BUTTON mathButtons" type="button" value="*">*</input>
+                <input onclick="calculator.display.value +='%'" class="bg-yellow-600 p-4 text-lg text-white rounded hover:bg-yellow-500 button mathButtons" type="button" value="%">%</input>
+                <input onclick="calculator.display.value +='0'" class="bg-gray-700 p-4 text-lg text-white rounded hover:bg-gray-600 button digits" type="button" value="0">0</input>
+                <input onclick="calculator.display.value  = eval(calculator.display.value)" class="bg-blue-600 p-4 text-lg text-white rounded hover:bg-blue-500 button mathButtons" type="button" value="=">=</input>
+                <input onclick="calculator.display.value +='.'" class="bg-yellow-600 p-4 text-lg text-white rounded hover:bg-yellow-500 button mathButtons" type="button" value=".">.</input>
+        </form>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
