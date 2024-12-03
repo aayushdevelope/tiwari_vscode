@@ -10,7 +10,6 @@ Programming languages used:
 2 TAILWIND CSS
 # Set up instruction
  Clone this repository to a location in your file system
-https://github.com/aayushdevelope/tiwari_vscode
 open index.html on your browser
 
 
