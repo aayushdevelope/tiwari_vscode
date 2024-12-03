@@ -10,7 +10,7 @@ Programming languages used:
 2 TAILWIND CSS
 # Set up instruction
  Clone this repository to a location in your file system
- https://jubilant-winner-97jp6rxp4799fxv55-5500.app.github.dev/tailwindcalculator.html
+ https://github.com/aayushdevelope/tailwindcalculator.git
 open index.html on your browser
 
 
